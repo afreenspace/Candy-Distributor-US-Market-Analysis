@@ -1,39 +1,17 @@
 # Candy Distributor — US Market Analysis
 
-Overview
 This repository contains a complete end-to-end SQL analysis for the "US Candy Distributor" dataset. It answers business questions about revenue, units, profit, product profitability, geographic performance, target attainment, and data quality observations.
 
-Files added
-
-Data sources
+# Data sources
 The dataset used here is the Maven Analytics sample for the Candy Distributor. The following tables are expected in the `candy_distributor` schema:
 
-If your local files are already present, the folder path used for this project on your machine is:
-
-`C:/Users/Afreen/Downloads/SQL PRACTICE DATABASE/SQL CANDY DISTRIBUTOR PROJECT/US+Candy+Distributor`
-
-How to run
+# How to run
 1. Open MySQL Workbench and connect to your local MySQL instance.
 2. Make sure the `candy_distributor` schema is available and the tables are loaded (the provided dataset files from Maven Analytics should be imported).
 3. Open `analysis_queries.sql` and run individual statements or the entire file.
 
-Deliverables (what's included)
-
-Data-quality note (Ship Date)
+# Data-quality note (Ship Date)
 During initial exploration a Ship Date data-quality issue was observed: several rows have missing or invalid `Ship Date` values and inconsistent formatting. Because shipping-duration calculations (Ship Date - Order Date) require reliable dates, shipping-duration analysis was excluded from the main deliverables. When you want this analysis included, please provide a cleaned `Ship Date` column (consistent date format and non-null values) or allow me to include a data-cleaning step to impute/validate ship dates.
-
-Next steps (for you)
-1. Add the screenshot image files to `docs/screenshots/` using the filenames described in `docs/screenshots/README.md`.
-2. Review `analysis_queries.sql` in MySQL Workbench and run queries against your `candy_distributor` schema.
-3. Create a GitHub repository and push this folder. Share the repo link and I can help prepare a short commit history and a polished first PR message.
-
-If you'd like, I can also:
-
-Repository
-This project is prepared to be pushed to GitHub (example remote):
-
-https://github.com/afreenspace/Candy-Distributor-US-Market-Analysis.git
-📊 Sales Data Analysis using SQL
 
 📌 Project Overview
 
@@ -150,9 +128,4 @@ Below are the key analysis outputs. (Files are in `screenshots/`.)
 
 👩‍💻 Author
 
-Afreen
-
-Aspiring Data Analyst | SQL | Power BI | Excel | Python
-- Execute the queries locally and produce CSVs/plots (if you provide either a GitHub link or give me permission to run locally),
-- Add sample output tables to the README, or
-- Format the queries into a Jupyter notebook with visualizations.
+Afreen N
