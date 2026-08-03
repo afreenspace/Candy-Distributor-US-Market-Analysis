@@ -1,0 +1,23 @@
+# Common ignores
+.DS_Store
+Thumbs.db
+/.vscode
+.idea
+__pycache__/
+*.pyc
+
+# Git
+/.git
+
+# Node
+node_modules/
+
+# MacOS
+*.DS_Store
+
+# Logs
+*.log
+
+# Data and exports (do not commit large datasets)
+/data/
+/exports/
