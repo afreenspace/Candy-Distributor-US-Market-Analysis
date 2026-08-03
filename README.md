@@ -119,6 +119,26 @@ SQL-Sales-Analysis/
 ├── screenshots/
 └── README.md
 
+---
+
+## Output screenshots
+
+Below are the key analysis outputs. (Files are in `screenshots/`.)
+
+![Database structure](screenshots/1.%20Databasetable%20structure.png)
+
+![Division vs Targets](screenshots/Actual%20vs%20Target%20by%20Division.png)
+
+![Best-sellers vs Profit](screenshots/CTE%20comparing%20best-sellers%20vs%20most-profitable.png)
+
+![Factory vs Region](screenshots/Factory%20vs%20region%20performance%20(3-table%20JOIN).png)
+
+![Population buckets](screenshots/Population%20bucket%20analysis%20(with%20the%20data-quality%20catch).png)
+
+![Monthly trend](screenshots/Sales%20trend%20with%20running%20total%20+%20MoM%20growth.png)
+
+![Top states](screenshots/Top%2010%20states%20with%20RANK().png)
+
 🚀 How to Run the Project
 
 1. Download or clone this repository.
