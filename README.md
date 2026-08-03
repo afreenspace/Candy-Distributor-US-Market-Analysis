@@ -13,13 +13,13 @@ The dataset used here is the Maven Analytics sample for the Candy Distributor. T
 # Data-quality note (Ship Date)
 During initial exploration a Ship Date data-quality issue was observed: several rows have missing or invalid `Ship Date` values and inconsistent formatting. Because shipping-duration calculations (Ship Date - Order Date) require reliable dates, shipping-duration analysis was excluded from the main deliverables. When you want this analysis included, please provide a cleaned `Ship Date` column (consistent date format and non-null values) or allow me to include a data-cleaning step to impute/validate ship dates.
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project analyzes sales data using SQL to identify important business insights related to sales performance, customers, products, and revenue.
 
 The project was created as a practical SQL data analysis project using a real-world dataset.
 
-🎯 Objectives
+# 🎯 Objectives
 
 * Analyze overall sales performance
 * Identify top-selling products
@@ -28,14 +28,14 @@ The project was created as a practical SQL data analysis project using a real-wo
 * Identify trends and patterns in the data
 * Answer business questions using SQL
 
-🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 * MySQL
 * SQL
 * MySQL Workbench
 * GitHub
 
-📂 Dataset
+# 📂 Dataset
 
 The dataset contains information related to:
 
@@ -44,11 +44,11 @@ The dataset contains information related to:
 * Products
 * Sales transactions
 
-🗄️ Database Structure
+# 🗄️ Database Structure
 
 The dataset was imported into MySQL and organized into related tables using primary and foreign keys.
 
-🔍 SQL Analysis
+# 🔍 SQL Analysis
 
 Some of the SQL concepts used in this project include:
 
@@ -64,7 +64,7 @@ Some of the SQL concepts used in this project include:
 * CTEs
 * Window Functions
 
-📈 Key Analysis
+# 📈 Key Analysis
 
 1. Top-Selling Products
 
@@ -78,7 +78,7 @@ Customer-level analysis was performed to identify purchasing patterns and high-v
 
 Revenue was analyzed across different categories/time periods to understand overall business performance.
 
-💡 Key Insights
+# 💡 Key Insights
 
 Some of the major insights identified from the analysis include:
 
@@ -88,7 +88,7 @@ Some of the major insights identified from the analysis include:
 * Compared sales performance across different segments.
 * Used SQL aggregations and joins to answer business questions.
 
-📁 Project Structure
+# 📁 Project Structure
 
 SQL-Sales-Analysis/
 │
@@ -117,7 +117,7 @@ Below are the key analysis outputs. (Files are in `screenshots/`.)
 
 ![Top states](screenshots/Top%2010%20states%20with%20RANK().png)
 
-🚀 How to Run the Project
+# 🚀 How to Run the Project
 
 1. Download or clone this repository.
 2. Open MySQL Workbench.
@@ -126,6 +126,6 @@ Below are the key analysis outputs. (Files are in `screenshots/`.)
 5. Run the SQL scripts provided in the sql folder.
 6. Execute the analysis queries to reproduce the results.
 
-👩‍💻 Author
+# 👩‍💻 Author
 
 Afreen N
