@@ -1,3 +1,5 @@
+Learning project. Built while learning [Power BI / SQL / Python] with AI assistance for guidance and debugging. The business questions, dataset selection, and review of results were mine. Some advanced parts were AI-guided.
+
 # Candy Distributor — US Market Analysis
 
 This repository contains a complete end-to-end SQL analysis for the "US Candy Distributor" dataset. It answers business questions about revenue, units, profit, product profitability, geographic performance, target attainment, and data quality observations.
